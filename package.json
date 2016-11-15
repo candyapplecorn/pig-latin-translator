@@ -1,0 +1,29 @@
+{
+  "name": "pig-latin-converter",
+  "version": "1.0.0",
+  "description": "A command-line tool which may read from STDIN or take arguments, and converts its input to pig latin.",
+  "main": "pipeto",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candyapplecorn/pig-latin-translator.git"
+  },
+  "keywords": [
+    "\"translator\"",
+    "\"pig",
+    "latin\"",
+    "\"pig\"",
+    "\"latin\""
+  ],
+  "author": "Joseph Burger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/candyapplecorn/pig-latin-translator/issues"
+  },
+  "homepage": "https://github.com/candyapplecorn/pig-latin-translator#readme",
+  "bin": {
+      "piglatin": "./pipeto"
+  }
+}
