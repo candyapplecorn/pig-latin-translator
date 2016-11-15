@@ -1,8 +1,8 @@
 {
   "name": "pig-latin-converter",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A command-line tool which may read from STDIN or take arguments, and converts its input to pig latin.",
-  "main": "pipeto",
+  "main": "pipeto.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/candyapplecorn/pig-latin-translator#readme",
   "bin": {
-      "piglatin": "./pipeto"
+      "piglatin": "node pipeto.js"
   }
 }
