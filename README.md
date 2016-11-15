@@ -1,6 +1,12 @@
 # pig-latin-translator
 translates text to pig latin
 
+## Install:
+
+`npm install -g pig-latin-converter`
+
+Now piglatin is installed as a command line program.
+
 ## Usage:
 
 #### Read from a pipe:
