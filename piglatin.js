@@ -40,7 +40,7 @@ function getLastPunc(word){
 }
 
 function word2pig(word, _, __, punc){
-    if (/\s/.test(word)) return word;
+    if (!word || /\s/.test(word)) return word;
 
     var upperCase = word[0] == word[0].toUpperCase(),
         puncIndex = getLastPunc(word);

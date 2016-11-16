@@ -30,7 +30,6 @@ console.log(pigLatin('I hope this works'));
 
 ## bugs
 
-- Doesn't handle elipses ( __...__ ). Could easily make this a feature, but as-is, the code is nice and compact. If someone wants to make a pull request, be my guest - see below:
 - Doesn't seem to handle newlines ( __\n__ ) very well - see below:
 - Just typing `piglatin` into the command line results in the program waiting for input. Ideally, it'd exit with a usage message. I could implement this but... that's for another day.
 
