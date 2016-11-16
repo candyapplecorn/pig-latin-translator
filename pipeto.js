@@ -1,3 +1,4 @@
+#!/usr/bin/node
 var path = require('path'), pl;
 try       { pl = require('pigLatin');               }
 catch (e) { pl = require(path.resolve('pigLatin')); }
