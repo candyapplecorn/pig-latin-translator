@@ -21,6 +21,13 @@ $piglatin dude why am I eating the moon
 udeday why amyay Iyay eatingyay ethay oonmay
 ```
 
+#### Or require from within a program:
+```javascript
+var pigLatin = require('piglatin');
+console.log(pigLatin('I hope this works'));
+//Iyay opehay isthay orksway
+```
+
 ## bugs
 
 - Doesn't handle elipses ( __...__ ). Could easily make this a feature, but as-is, the code is nice and compact. If someone wants to make a pull request, be my guest - see below:
