@@ -1,6 +1,6 @@
 {
   "name": "pig-latin-converter",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "description": "A command-line tool which may read from STDIN or take arguments, and converts its input to pig latin.",
   "main": "piglatin",
   "scripts": {
